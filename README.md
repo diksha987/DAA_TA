@@ -20,7 +20,7 @@ If user enters “1” [3,5,7]: then an edge is added between vertex 3 and verte
 <P>Prim's Algorithm is a greedy algorithm that is used to find the minimum spanning tree from a graph. Prim's algorithm finds the subset of edges that includes every vertex of the graph such that the sum of the weights of the edges can be minimized.</P>
 
 <P>Prim's algorithm starts with the single node and explores all the adjacent nodes with all the connecting edges at every step. The edges with the minimal weights causing no cycles in the graph got selected.</P>
-________________________________________________________________________________________________________________________________________________________
+<hr>
 
 ![T1](https://user-images.githubusercontent.com/56405230/203822570-6a880f5b-6e8f-45f1-975f-6b40ad7d7503.jpg)<BR>
 ![image](https://user-images.githubusercontent.com/56405230/203823714-f03e451f-1620-4794-aa42-5ddec9647ddd.png)<BR>
