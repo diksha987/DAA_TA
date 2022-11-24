@@ -20,16 +20,15 @@ If user enters “1” [3,5,7]: then an edge is added between vertex 3 and verte
 <P>Prim's Algorithm is a greedy algorithm that is used to find the minimum spanning tree from a graph. Prim's algorithm finds the subset of edges that includes every vertex of the graph such that the sum of the weights of the edges can be minimized.</P>
 
 <P>Prim's algorithm starts with the single node and explores all the adjacent nodes with all the connecting edges at every step. The edges with the minimal weights causing no cycles in the graph got selected.</P>
-<H1><P><P><B>TESTCASES</P></B></H1>
-<B>TESTCASE NO. 01 </B><BR><BR>
-![image](https://user-images.githubusercontent.com/56405230/203818354-9f7882fb-ade1-472a-a205-389be842ae7b.png)
+________________________________________________________________________________________________________________________________________________________
 
+![T1](https://user-images.githubusercontent.com/56405230/203822570-6a880f5b-6e8f-45f1-975f-6b40ad7d7503.jpg)<BR>
+![image](https://user-images.githubusercontent.com/56405230/203823714-f03e451f-1620-4794-aa42-5ddec9647ddd.png)<BR>
+![image](https://user-images.githubusercontent.com/56405230/203824516-7ca25fa6-6f1b-4ffa-88a9-f96d3bcae36f.png)
 <HR>
-<B>TESTCASE NO. 02 </B><BR><BR>
-![image](https://user-images.githubusercontent.com/56405230/203818406-ea6dcb02-cb1d-46b8-82c0-2fa1ea4e8659.png)
-
-<HR>
-<B>TESTCASE NO. 03 </B><BR><BR>
-![image](https://user-images.githubusercontent.com/56405230/203819184-995ce14e-6e1e-4dd5-921f-f2e7e13f5b2b.png)
-
-<HR>
+  <H1><P>OBSERVATION ON COST</P></H1>
+  <P>
+    Cost in increasing if we delete the previous shortest path from a particular source to destination.
+    And if we insert the new path from one node to another and newly inserted path's cost is less than previous then the cost is decreasing.
+    
+    
